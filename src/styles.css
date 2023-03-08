@@ -1,0 +1,140 @@
+body {
+  background-color: #f7f5fc;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  color: #272142;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 48px;
+  margin: 20px 0 10px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  margin-bottom: 5px;
+}
+
+footer {
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 14px;
+  line-height: 18px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.container {
+  margin: 60px auto;
+  max-width: 800px;
+}
+
+.weather {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 30px 50px rgb(65 50 100 / 8%);
+  color: #878787;
+  padding: 40px;
+}
+
+.search-form {
+  border-bottom: 1px solid #f9f7fe;
+  margin-top: 40px;
+  padding-bottom: 30px;
+}
+
+.search-input {
+  background: #f9f7fe;
+  border: none;
+  border-radius: 6px;
+  color: rgba(39, 33, 66, 0.4);
+  display: inline-block;
+  font-size: 16px;
+  height: 50px;
+  line-height: 20px;
+  padding: 15px 20px;
+}
+
+.btn {
+  background: #885df1;
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+  height: 50px;
+  padding: 15px 0;
+}
+
+.weather-info {
+  margin-top: 20px;
+}
+
+.humidity-wind {
+  color: #f65282;
+  font-weight: 400;
+}
+
+.temperature-container {
+  align-items: center;
+  margin-top: 30px;
+}
+
+.temperature-unit {
+  margin-top: 40px;
+}
+
+.temperature {
+  color: #212121;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 1;
+  margin-left: 10px;
+}
+
+.unit {
+  color: #212121;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1;
+  position: relative;
+  top: -34px;
+}
+
+.weather-forecast {
+  border-bottom: 1px solid #f9f7fe;
+  margin: 40px 0;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.forecast-time {
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.icon-forecast {
+  margin: 20px 30px;
+}
+
+.forecast-temperature {
+  color: #f65282;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.forecast-temperature-min {
+  margin-left: 10px;
+  opacity: 0.6;
+}
